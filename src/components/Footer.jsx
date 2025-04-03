@@ -41,7 +41,7 @@ function Footer() {
                             <li><a href="#">MAD Magazine</a></li>
                             <li><a href="#">DC Kids</a></li>
                             <li><a href="#">DC Universe</a></li>
-                            <li><a href="#">DC Power Visa</a></li>
+                            <li><a href="https://www.google.it">DC Power Visa</a></li>
                         </ul>
                     </li>
                 </ul>
