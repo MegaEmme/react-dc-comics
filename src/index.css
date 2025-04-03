@@ -140,18 +140,22 @@ main {
   display: flex;
   flex-direction: column;
   line-height: 1.4rem;
-  color: lightgray;
-  opacity: 0.5;
   margin: 1rem 0;
+}
+
+.footer-list-inner a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
 }
 
 .footer-top-right{
   position: absolute;
-  top: -95px;
+  top: -100px;
   right: 0;
   background-image: url(../src/assets/img/dc-logo-bg.png);
-  height: 560px;
-  width: 560px;
+  height: 565px;
+  width: 565px;
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
