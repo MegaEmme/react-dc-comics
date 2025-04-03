@@ -5,43 +5,43 @@ function Footer() {
                 <ul className="footer-list">
                     <li>DC COMICS
                         <ul className="footer-list-inner">
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
                         </ul>
                     </li>
                     <li>SHOP
                         <ul className="footer-list-inner">
-                            <li>ciao</li>
-                            <li>ciao</li>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
                         </ul>
                     </li>
                     <li>DC
                         <ul className="footer-list-inner">
                             <li>Terms Of Use</li>
                             <li>Privacy policy (New)</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
                         </ul>
                     </li>
                     <li>SITES
                         <ul className="footer-list-inner">
                             <li>DC</li>
                             <li>MAD Magazine</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
                         </ul>
                     </li>
                 </ul>

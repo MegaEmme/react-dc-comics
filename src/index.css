@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body{
+  overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,20 +28,31 @@ nav{
   align-items: center;
 }
 
-ul {
+ul{
   font-size: small;
   font-weight: 700;
   display: flex;
   flex-wrap: wrap;
 }
 
-li {
-  margin-right: 1.5rem;
-  list-style-type: none;
+.menu-list{
+  height: 100%;
 }
 
-.blue{
+.menu-list > li{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.menu-list > li:hover{
   color: #0282f9;
+  border-bottom:4px solid #0282f9;
+  padding-top: 4px;
+}
+
+li {
+  list-style-type: none;
 }
 
 main {
@@ -115,7 +126,8 @@ main {
 .footer-list{
   height: 100%;
   padding: 2rem 0 0 20rem;
-  font-size: larger;
+  font-size: medium;
+  gap: 1.5rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;

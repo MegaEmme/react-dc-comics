@@ -1,7 +1,11 @@
+
+
 function Main() {
+    const arrowRight = "-->";
+    const arrowLeft = "<--";
     return <main>
         <div className="content">
-            <span>-- Content goes here --</span>
+            <span> {arrowRight} Content goes here {arrowLeft}</span>
         </div>
     </main>
 }

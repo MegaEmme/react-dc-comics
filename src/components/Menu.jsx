@@ -1,7 +1,7 @@
 function Menu() {
-    return <ul>
+    return <ul className="menu-list">
         <li>CHARACTERS</li>
-        <li className="blue">COMICS</li>
+        <li>COMICS</li>
         <li>MOVIES</li>
         <li>TV</li>
         <li>GAMES</li>
