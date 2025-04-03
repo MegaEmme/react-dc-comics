@@ -1,10 +1,26 @@
 function Bluestrip() {
     return <div className="blue-strip">
-        <div className="strip-object"></div>
-        <div className="strip-object"></div>
-        <div className="strip-object"></div>
-        <div className="strip-object"></div>
-        <div className="strip-object"></div>
+        <div className="strip-object">
+            {/* <img src="../src/assets/img/buy-comics-digital-comics.png" alt="buy-digital-comics" /> */}
+            <div className="strip-image strip-img-background-one"></div>
+            <span>DIGITAL COMICS</span>
+        </div>
+        <div className="strip-object">
+            <div className="strip-image strip-img-background-two"></div>
+            <span>DC MERCHANDISE</span>
+        </div>
+        <div className="strip-object">
+            <div className="strip-image strip-img-background-three"></div>
+            <span>SUBSCRIPTION</span>
+        </div>
+        <div className="strip-object">
+            <div className="strip-image strip-img-background-four"></div>
+            <span>COMIC SHOP LOCATOR</span>
+        </div>
+        <div className="strip-object">
+            <div className="strip-image strip-img-background-five"></div>
+            <span>DC POWER VISA</span>
+        </div>
     </div>
 }
 
