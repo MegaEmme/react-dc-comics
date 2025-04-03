@@ -55,11 +55,21 @@ function Footer() {
             <div className="footer-bottom-right">
                 <button className="follow-us-button"><a href="#">FOLLOW US</a></button>
                 <div className="social-box">
-                    <div className="social facebook"></div>
-                    <div className="social twitter"></div>
-                    <div className="social youtube"></div>
-                    <div className="social pinterest"></div>
-                    <div className="social periscope"></div>
+                    <a href="#">
+                        <div className="social facebook"></div>
+                    </a>
+                    <a href="#">
+                        <div className="social twitter"></div>
+                    </a>
+                    <a href="#">
+                        <div className="social youtube"></div>
+                    </a>
+                    <a href="#">
+                        <div className="social pinterest"></div>
+                    </a>
+                    <a href="#">
+                        <div className="social periscope"></div>
+                    </a>
                 </div>
             </div>
         </div>
