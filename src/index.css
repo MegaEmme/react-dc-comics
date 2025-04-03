@@ -30,7 +30,7 @@ nav{
 
 ul {
   font-size: small;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   flex-wrap: wrap;
 }
@@ -49,7 +49,7 @@ main {
   background-color: black;
   color: white;
   font-size: xx-large;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .blue-strip{
@@ -58,11 +58,15 @@ main {
   display: flex;
   justify-content: space-around;
   color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .strip-image{
-  height: 65px;
-  width: 65px;
+  height: 60px;
+  width: 60px;
   margin-right: .5rem;
   background-size: contain;
   background-repeat: no-repeat;
@@ -92,8 +96,6 @@ main {
 .strip-object{
   display: flex;
   align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .footer-top{
@@ -111,22 +113,22 @@ main {
 
 .footer-list{
   height: 100%;
-  margin: 2rem 0 4rem 20rem;
+  padding: 2rem 0 0 20rem;
   font-size: larger;
   font-weight: 700;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   color: white;
-  width: 40%;
+  width: 70%;
 }
 
 .footer-list-inner{
   display: flex;
   flex-direction: column;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   color: #959595;
-  margin-bottom: 1rem; 
+  margin: 1rem 0;
 }
 
 .footer-top-right{
@@ -143,8 +145,22 @@ main {
 }
 
 .footer-bottom{
-  z-index: 300;
+  padding: 0 20rem;
   height: 100px;
   background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
+.footer-bottom-left{
+  height: 100%;
+  width: 50%;
+  background-color: red;
+}
+
+.footer-bottom-right{
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+}
