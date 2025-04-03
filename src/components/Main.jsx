@@ -1,5 +1,7 @@
 function Main() {
-    return <main>Main</main>
+    return <main>
+        <h1>-- Content goes here --</h1>
+    </main>
 }
 
 export default Main;
