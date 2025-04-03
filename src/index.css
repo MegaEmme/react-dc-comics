@@ -135,11 +135,11 @@ main {
 
 .footer-top-right{
   position: absolute;
-  top: -110px;
+  top: -95px;
   right: 0;
   background-image: url(../src/assets/img/dc-logo-bg.png);
-  height: 580px;
-  width: 580px;
+  height: 560px;
+  width: 560px;
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -166,12 +166,12 @@ main {
 }
 
 .follow-us-button{
-  padding: 1rem;
+  margin-right: 3rem;
   color: #0282f9;
   background: transparent;
   border: none;
-  font-size: larger;
-  font-weight: bolder;
+  font-size: large;
+  font-weight: 700;
 }
 
 .social-box{
@@ -181,8 +181,8 @@ main {
 }
 
 .social{
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   background-size: contain;
 }
 
