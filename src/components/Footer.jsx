@@ -49,8 +49,19 @@ function Footer() {
             <div className="footer-top-right"></div>
         </div>
         <div className="footer-bottom">
-            <div className="footer-bottom-left"></div>
-            <div className="footer-bottom-right"></div>
+            <div className="footer-bottom-left">
+                <button className="sign-up-button">SIGN UP NOW!</button>
+            </div>
+            <div className="footer-bottom-right">
+                <button className="follow-us-button">FOLLOW US</button>
+                <div className="social-box">
+                    <div className="social facebook"></div>
+                    <div className="social twitter"></div>
+                    <div className="social youtube"></div>
+                    <div className="social pinterest"></div>
+                    <div className="social periscope"></div>
+                </div>
+            </div>
         </div>
     </footer>
 }

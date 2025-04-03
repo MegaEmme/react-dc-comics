@@ -1,7 +1,6 @@
 function Bluestrip() {
     return <div className="blue-strip">
         <div className="strip-object">
-            {/* <img src="../src/assets/img/buy-comics-digital-comics.png" alt="buy-digital-comics" /> */}
             <div className="strip-image strip-img-background-one"></div>
             <span>DIGITAL COMICS</span>
         </div>

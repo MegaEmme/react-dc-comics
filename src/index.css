@@ -57,6 +57,7 @@ main {
   padding: 0 20rem;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -127,7 +128,8 @@ main {
   display: flex;
   flex-direction: column;
   line-height: 1.4rem;
-  color: #959595;
+  color: lightgray;
+  opacity: 0.5;
   margin: 1rem 0;
 }
 
@@ -145,22 +147,61 @@ main {
 }
 
 .footer-bottom{
-  padding: 0 20rem;
-  height: 100px;
+  padding: 2rem 20rem;
   background-color: #303030;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 
-.footer-bottom-left{
-  height: 100%;
-  width: 50%;
-  background-color: red;
+.sign-up-button{
+  padding: 1rem;
+  color: white;
+  background: transparent;
+  border: 1px solid #0282f9;
 }
 
-.footer-bottom-right{
-  height: 100%;
-  width: 50%;
-  background-color: blue;
+.footer-bottom-right{ 
+  display: flex;
+}
+
+.follow-us-button{
+  padding: 1rem;
+  color: #0282f9;
+  background: transparent;
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.social-box{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social{
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+}
+
+.facebook{
+  background-image: url(../src/assets/img/footer-facebook.png);
+}
+
+.twitter{
+  background-image: url(../src/assets/img/footer-twitter.png);
+}
+
+.youtube{
+  background-image: url(../src/assets/img/footer-youtube.png);
+}
+
+.pinterest{
+  background-image: url(../src/assets/img/footer-pinterest.png);
+}
+
+.periscope{
+  background-image: url(../src/assets/img/footer-periscope.png);
 }
