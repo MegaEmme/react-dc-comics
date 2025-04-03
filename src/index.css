@@ -50,6 +50,19 @@ main {
   color: white;
 }
 
+.blue-strip{
+  height: 200px;
+  background-color: #0282f9;
+  padding: 3rem 20rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.strip-object{
+  height: 100px;
+  width: 50px;
+}
+
 .footer-top{
   position: relative;
   background-image: url(../src/assets/img/footer-bg.jpg);

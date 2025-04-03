@@ -1,6 +1,8 @@
 function Main() {
     return <main>
-        <span>-- Content goes here --</span>
+        <div className="content">
+            <span>-- Content goes here --</span>
+        </div>
     </main>
 }
 
