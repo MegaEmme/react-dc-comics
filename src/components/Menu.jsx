@@ -1,9 +1,15 @@
 function Menu() {
     return <ul>
-        <li>menu 1</li>
-        <li>menu 2</li>
-        <li>menu 3</li>
-        <li>menu 4</li>
+        <li>CHARACTERS</li>
+        <li>COMICS</li>
+        <li>MOVIES</li>
+        <li>TV</li>
+        <li>GAMES</li>
+        <li>COLLECTIBLES</li>
+        <li>VIDEOS</li>
+        <li>FANS</li>
+        <li>NEWS</li>
+        <li>SHOP</li>
     </ul>
 }
 

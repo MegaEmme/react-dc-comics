@@ -1,5 +1,11 @@
+import logo from "../assets/img/dc-logo.png";
+
 function Logo() {
-    return <img src="../assets/img/dc-logo" alt="dc-logo" />
+    return (
+        <>
+            <img src={logo} alt="dc-logo" />
+        </>
+    )
 }
 
 export default Logo;

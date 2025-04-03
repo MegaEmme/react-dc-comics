@@ -1,10 +1,13 @@
+import Logo from "./Logo";
+import Menu from "./Menu";
+
 function Header() {
     return <header>
         <figure>
-            logo
+            <Logo />
         </figure>
         <nav>
-            menu
+            <Menu />
         </nav>
     </header>
 }
