@@ -1,6 +1,6 @@
 function Menu() {
     return <ul className="menu-list">
-        <li><a href="#">CHARACTERS</a></li>
+        <li><a href="https://www.google.it">CHARACTERS</a></li>
         <li><a href="#">COMICS</a></li>
         <li><a href="#">MOVIES</a></li>
         <li><a href="#">TV</a></li>

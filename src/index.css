@@ -185,9 +185,14 @@ button:hover {
 
 .sign-up-button{
   padding: 1rem;
-  color: white;
   background: transparent;
   border: 1px solid #0282f9;
+}
+
+.sign-up-button > a{
+  text-decoration: none;
+  color: white;
+
 }
 
 .footer-bottom-right{ 
@@ -196,11 +201,15 @@ button:hover {
 
 .follow-us-button{
   margin-right: 3rem;
-  color: #0282f9;
   background: transparent;
   border: none;
   font-size: large;
   font-weight: 700;
+}
+
+.follow-us-button > a{
+  color: #0282f9;
+  text-decoration: none;
 }
 
 .social-box{

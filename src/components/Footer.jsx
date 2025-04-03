@@ -50,10 +50,10 @@ function Footer() {
         </div>
         <div className="footer-bottom">
             <div className="footer-bottom-left">
-                <button className="sign-up-button">SIGN UP NOW!</button>
+                <button className="sign-up-button"><a href="#">SIGN UP NOW!</a></button>
             </div>
             <div className="footer-bottom-right">
-                <button className="follow-us-button">FOLLOW US</button>
+                <button className="follow-us-button"><a href="#">FOLLOW US</a></button>
                 <div className="social-box">
                     <div className="social facebook"></div>
                     <div className="social twitter"></div>
