@@ -78,9 +78,7 @@ main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: white;
   padding-top: 2rem;
-  padding-bottom: 2rem;
   position: relative;
   z-index: 1;
 }
@@ -110,13 +108,16 @@ main {
 }
 
 .strip-img-background-five{
-  margin-top: 2rem;
+  margin-top: .5rem;
   background-image: url(../src/assets/img/buy-dc-power-visa.svg);
 }
 
-.strip-object{
+.strip-object > a{
+  text-decoration: none;
+  color: white;
   display: flex;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .footer-top{
@@ -130,6 +131,8 @@ main {
 .footer-top-left{
   height: 100%;
   width: 50%;
+  position: relative;
+  z-index: 1000;
 }
 
 .footer-list{
