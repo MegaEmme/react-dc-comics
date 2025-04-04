@@ -149,7 +149,6 @@ main {
   font-weight: 700;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   color: white;
   width: 70%;
 }
