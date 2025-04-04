@@ -61,7 +61,7 @@ function Footer() {
                     <a href="#">
                         <div className="social twitter"></div>
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@dcofficial" target="_blank">
                         <div className="social youtube"></div>
                     </a>
                     <a href="#">
