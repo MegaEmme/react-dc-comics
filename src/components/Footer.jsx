@@ -1,6 +1,8 @@
 function Footer(props) {
     const dcComics = props.FooterListOne;
     const shop = props.FooterListTwo;
+    const dc = props.FooterListThree;
+    const sites = props.FooterListFour;
     return <footer>
         <div className="footer-top">
             <div className="footer-top-left">
@@ -24,25 +26,25 @@ function Footer(props) {
                     </li>
                     <li>DC
                         <ul className="footer-list-inner">
-                            <li><a href="#">Terms Of Use</a></li>
-                            <li><a href="#">Privacy policy (New)</a></li>
-                            <li><a href="#">Ad Choices</a></li>
-                            <li><a href="#">Advertising</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Subscriptions</a></li>
-                            <li><a href="#">Talent Workshops</a></li>
-                            <li><a href="#">CPSC Certificates</a></li>
-                            <li><a href="#">Ratings</a></li>
-                            <li><a href="#">Shop Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">{dc[0]}</a></li>
+                            <li><a href="#">{dc[1]}</a></li>
+                            <li><a href="#">{dc[2]}</a></li>
+                            <li><a href="#">{dc[3]}</a></li>
+                            <li><a href="#">{dc[4]}</a></li>
+                            <li><a href="#">{dc[5]}</a></li>
+                            <li><a href="#">{dc[6]}</a></li>
+                            <li><a href="#">{dc[7]}</a></li>
+                            <li><a href="#">{dc[8]}</a></li>
+                            <li><a href="#">{dc[9]}</a></li>
+                            <li><a href="#">{dc[10]}</a></li>
                         </ul>
                     </li>
                     <li>SITES
                         <ul className="footer-list-inner">
-                            <li><a href="#">DC</a></li>
-                            <li><a href="#">MAD Magazine</a></li>
-                            <li><a href="#">DC Kids</a></li>
-                            <li><a href="#">DC Universe</a></li>
+                            <li><a href="#">{sites[0]}</a></li>
+                            <li><a href="#">{sites[1]}</a></li>
+                            <li><a href="#">{sites[2]}</a></li>
+                            <li><a href="#">{sites[3]}</a></li>
                             <li><a href="https://www.google.it">DC Power Visa</a></li>
                         </ul>
                     </li>
