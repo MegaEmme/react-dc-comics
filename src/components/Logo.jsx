@@ -1,10 +1,8 @@
-import logo from "../assets/img/dc-logo.png";
-
 function Logo() {
     return (
         <>
             <div className="logo-container">
-                <a href="https://www.google.it"></a>
+                <a href="http://www.dc.com" target="_blank"></a>
             </div>
         </>
     )
