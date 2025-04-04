@@ -7,13 +7,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="container">
-        <Header />
-        <Main />
-        <Bluestrip />
-        <Footer />
-      </div>
-    </>
+      <Header />
+      <Main />
+      <Bluestrip />
+      <Footer />
+    </>   // il tag aperto a riga 9 e chiuso qua serve perchè il return può mandare un solo elemento 
   )
 }
 
