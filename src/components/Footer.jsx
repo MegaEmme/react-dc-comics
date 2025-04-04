@@ -1,23 +1,25 @@
-function Footer() {
+function Footer(props) {
+    const dcComics = props.FooterListOne;
+    const shop = props.FooterListTwo;
     return <footer>
         <div className="footer-top">
             <div className="footer-top-left">
                 <ul className="footer-list">
                     <li>DC COMICS
                         <ul className="footer-list-inner">
-                            <li><a href="#">Characters</a></li>
-                            <li><a href="#">Comics</a></li>
-                            <li><a href="#">Movies</a></li>
-                            <li><a href="#">TV</a></li>
-                            <li><a href="#">Games</a></li>
-                            <li><a href="#">Videos</a></li>
-                            <li><a href="#">News</a></li>
+                            <li><a href="#">{dcComics[0]}</a></li>
+                            <li><a href="#">{dcComics[1]}</a></li>
+                            <li><a href="#">{dcComics[2]}</a></li>
+                            <li><a href="#">{dcComics[3]}</a></li>
+                            <li><a href="#">{dcComics[4]}</a></li>
+                            <li><a href="#">{dcComics[5]}</a></li>
+                            <li><a href="#">{dcComics[6]}</a></li>
                         </ul>
                     </li>
                     <li>SHOP
                         <ul className="footer-list-inner">
-                            <li><a href="#">Shop DC</a></li>
-                            <li><a href="#">Shop DC Collectibles</a></li>
+                            <li><a href="#">{shop[0]}</a></li>
+                            <li><a href="#">{shop[1]}</a></li>
                         </ul>
                     </li>
                     <li>DC
