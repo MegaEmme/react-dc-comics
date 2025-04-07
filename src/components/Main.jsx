@@ -1,13 +1,14 @@
-
+import Card from "./Card";
+import comics from "../data/comics";
 
 function Main() {
-    const arrowRight = "-->";
-    const arrowLeft = "<--";
-    return <main>
-        <div className="content">
-            <span> {arrowRight} Content goes here {arrowLeft}</span>
-        </div>
-    </main>
+    return (
+        <>
+            <main>
+                <Card Comics={comics} />
+            </main>
+        </>
+    )
 }
 
 export default Main;

@@ -75,6 +75,13 @@ main {
   color: white;
   font-size: xx-large;
   font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card h4{
+  font-size: smaller;
+  font-weight: lighter;
 }
 
 .blue-strip{
