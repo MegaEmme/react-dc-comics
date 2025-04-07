@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body{
@@ -66,17 +66,22 @@ li {
 
 .jumbotron{
   background-image: url(../src/assets/img/jumbotron.jpg);
-  height: 39vh;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
-  padding: 3rem 20rem 3rem 20rem;
+  padding: 3rem 20rem;
   background-color: #1c1c1c;
   color: white;
-  font-size: xx-large;
-  font-weight: 700;
-  display: flex;
-  flex-wrap: wrap;
+}
+
+.container{
+  border: 1px solid green;
+}
+
+.card{
 }
 
 .card h4{

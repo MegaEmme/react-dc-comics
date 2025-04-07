@@ -5,7 +5,9 @@ function Main() {
     return (
         <>
             <main>
-                <Card Comics={comics} />
+                <div className="container">
+                    <Card Comics={comics} />
+                </div>
             </main>
         </>
     )

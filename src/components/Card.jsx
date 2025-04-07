@@ -5,9 +5,10 @@ function Card(props) {
             {comics.map(element =>
                 <div key={element.id} className="card">
                     <img className="card-image" src={element.thumb} alt={element.title} />
-                    <h4>{element.title}</h4>
+                    <h4>{element.series}</h4>
                 </div>
             )}
+
         </>
     )
 }
