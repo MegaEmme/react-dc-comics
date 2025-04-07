@@ -299,3 +299,29 @@ main {
 .periscope{
   background-image: url(../src/assets/img/footer-periscope.png);
 }
+
+@media screen and (max-width: 1920px){
+  .card{
+    width: calc(100%/4);
+    margin-bottom: 3rem;
+  }
+
+}
+
+@media screen and (max-width: 1400px){
+  .card-image{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    padding: 0 .6rem;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .card-image{
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    padding: 0 .6rem;
+  }
+}
