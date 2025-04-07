@@ -92,6 +92,8 @@ main {
   height: 14rem;
   margin-bottom: 1rem;
   padding: 0 .6rem;
+  object-position: top;
+  object-fit: cover;
 }
 
 .card h4{
