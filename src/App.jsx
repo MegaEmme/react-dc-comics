@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Bluestrip from "./components/Bluestrip";
 import Footer from "./components/Footer";
+import Jumbotron from "./components/Jumbotron";
 
 const FooterDcComics = ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News", "Shop DC", "Shop DC Collectibles"];
 const FooterShop = ["Shop DC", "Shop DC Collectibles"];
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <Jumbotron />
       <Main />
       <Bluestrip />
       <Footer FooterListOne={FooterDcComics} FooterListTwo={FooterShop} FooterListThree={FooterDc} FooterListFour={FooterSites} />

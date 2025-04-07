@@ -64,6 +64,11 @@ li {
   list-style-type: none;
 }
 
+.jumbotron{
+  background-image: url(../src/assets/img/jumbotron.jpg);
+  height: 39vh;
+}
+
 main {
   padding: 3rem 20rem 3rem 20rem;
   background-color: #1c1c1c;
@@ -71,12 +76,6 @@ main {
   font-size: xx-large;
   font-weight: 700;
 }
-
-/* .content{
-  background-image: url(../src/assets/img/jumbotron.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
 
 .blue-strip{
   background-color: #0282f9;
