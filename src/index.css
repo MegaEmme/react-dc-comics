@@ -66,7 +66,7 @@ li {
 
 main {
   padding: 3rem 20rem 3rem 20rem;
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
   font-size: xx-large;
   font-weight: 700;
@@ -84,7 +84,8 @@ main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
   position: relative;
   z-index: 1;
 }
